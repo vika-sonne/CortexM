@@ -1,6 +1,7 @@
 /**
- * Event-driven single thread environment timer
- * Use system tick interrupt call to process two timers table: callbacks table (FLASH), status table (RAM)
+ * Event-driven single thread environment timer.
+ * Use system tick interrupt call to process two tables: callbacks table (FLASH), status table (RAM).
+ * This implementation uses compile time memory allocation. So all the timer callbacks (FLASH) and timer states (RAM) collect by linker into two sections: FLASH and RAM.
  *
  * @file Timer.h
  * @author vika
