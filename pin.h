@@ -3,7 +3,7 @@
 *
 * @author 2009-2012Anton Gusev aka AHTOXA (HTTP://AHTOXA.NET)
 * @author Inspired by AVR macros from Askold Volkov
-* @author Cortex-M0+ port by Victoria Danchenko
+* @author Cortex-M0+ and ScmRTOS port by Victoria Danchenko
 *
 * @copyright Public domain, AS IS.
 *
