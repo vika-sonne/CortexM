@@ -57,7 +57,7 @@ void some_function()
 	auto interval = Timer::Interval(TIMER_STATE(ExampleTimer)); // get timer interval
 	auto isStarted = Timer::isStarted(TIMER_STATE(ExampleTimer));
 }
-TIMER_CALLBACK(BufferTimer)
+TIMER_CALLBACK(ExampleTimer)
 {
 	Timer::Stop(TIMER_STATE(ExampleTimer));
 }

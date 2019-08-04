@@ -238,6 +238,7 @@ namespace Services
 	void Init();
 
 	//! Services callback notification function. Call this usually from the message loop
+	//! @note One call to this function is the one events process round
 	void ProcessStates();
 
 }  // namespace Services
