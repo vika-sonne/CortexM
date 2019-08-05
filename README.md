@@ -61,6 +61,8 @@ Business logic often needs in wide opportunities for the performance of the algo
 
 Usually, Service represent a block from functional scheme. And has relationships with other Services that consume and produce system-wide events according with hardware processing of concrete Service.
 
+![](/images/services.png)
+
 Example of S1 button service with button IRQ handler:
 
 Example.h file:
