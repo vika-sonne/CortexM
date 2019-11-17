@@ -186,3 +186,6 @@ Data cache as memory buffer for page by page access basis. This is part of files
 Holds one page in RAM buffer while write process and flush the buffer when write to another page happends. Has *PreFlushCallbackStruct* to finalize page data before flush (write). This can be used in the deferred CRC calculation mechanism and for another actions for page data finalization.
 
 ![](/images/page-cache.png)
+
+## Libs/UsbBase
+Base class for hardware abstraction from USB specification.
