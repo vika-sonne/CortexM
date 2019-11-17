@@ -187,5 +187,9 @@ Holds one page in RAM buffer while write process and flush the buffer when write
 
 ![](/images/page-cache.png)
 
-## Libs/UsbBase
-Base class for hardware abstraction from USB specification.
+## Libs/Usb*
+
+Class | Description
+------|------------
+UsbBase | Base class for hardware abstraction from USB specification.
+Cdc | USB Class Definitions for Communication Devices. Successor of UsbBase class.
